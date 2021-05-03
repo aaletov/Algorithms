@@ -82,13 +82,13 @@ template <typename T>
 bool BinarySearchTree<T>::deleteKey(const T& key)
 {
     Node<T>* node = recursiveSearch(root_, key);
-    Node<T>* p = node->p_;
-    Node<T>* left = node->left_;
-    Node<T>* right = node->right_;
     if (node == nullptr)
     {
         return false;
     }
+    Node<T>* p = node->p_;
+    Node<T>* left = node->left_;
+    Node<T>* right = node->right_;
     if (node == root_)
     {
         Node<T>* minRight = right;
