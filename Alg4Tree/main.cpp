@@ -7,7 +7,7 @@ bool testFunction(BinarySearchTree<int>* tree, std::ostream& out);
 int main()
 {
     std::ostream& out = std::cout;
-    //to commit
+
     BinarySearchTree<int> tree1;
     BinarySearchTree<int> tree2;
     BinarySearchTree<int> tree3;
